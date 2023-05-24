@@ -21,6 +21,11 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'com.google.guava:guava:30.1-jre'
+    implementation 'com.bucket4j:bucket4j-core:8.3.0'
+    implementation 'com.bucket4j:bucket4j-redis:8.3.0'
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    implementation 'org.springframework.integration:spring-integration-redis'
+
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
